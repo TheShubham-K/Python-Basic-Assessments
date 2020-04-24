@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)https://fopp.umsi.education/assignments/doAssignment?assignment_id=24 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}</style><style class="darkreader darkreader--user-agent" media="screen">html {
+    background-color: #181a1b !important;
+}
+html, body, input, textarea, select, button {
+    background-color: #181a1b;
+}
+html, body, input, textarea, select, button {
+    border-color: #575757;
+    color: #e8e6e3;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #4c4c4c;
+}
+::placeholder {
+    color: #bab5ab;
+}
+::selection {
+    background-color: #005ccc;
+    color: #ffffff;
+}
+::-moz-selection {
+    background-color: #005ccc;
+    color: #ffffff;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #545b00 !important;
+    color: #e8e6e3 !important;
+}
+::-webkit-scrollbar {
+    background-color: #1c1e1f;
+    color: #c5c1b9;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #2a2c2e;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #323537;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #3d4043;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+* {
+    scrollbar-color: #2a2c2e #1c1e1f;
+}</style>
+        <title>
+            Runestone Interactive
+        </title>
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="description" content="Learning Python should be fun and easy.  We provide an interactive Python textbook that helps you learn to program in Python right in your browser.">
+        <link href="./Runestone Interactive_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><style class="darkreader darkreader--sync" media="screen"></style>
+        <link rel="stylesheet" type="text/css" href="./Runestone Interactive_files/bootstrap-sphinx.css"><style class="darkreader darkreader--sync" media="screen"></style>
+        <link rel="stylesheet" type="text/css" href="./Runestone Interactive_files/runestone-custom-sphinx-bootstrap.css"><style class="darkreader darkreader--sync" media="screen"></style>
+        <link rel="stylesheet" type="text/css" href="./Runestone Interactive_files/dd.css"><style class="darkreader darkreader--sync" media="screen"></style>
+        <link rel="shortcut icon" href="https://fopp.umsi.education/runestone/static/favicon.ico" type="image/ico">
+        <script type="text/javascript" async="" src="./Runestone Interactive_files/ga.js"></script><script src="./Runestone Interactive_files/jquery-1.10.2.min.js"></script><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}</style>
+        <script src="./Runestone Interactive_files/jquery-fix.js"></script>
+        <script src="./Runestone Interactive_files/web2py.js"></script>
+        <script src="./Runestone Interactive_files/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="./Runestone Interactive_files/bootstrap-sphinx.js"></script>
+        
+        
+        <script type="text/javascript">
+            if(typeof eBookConfig === "undefined") {
+                eBookConfig = {};
+            }
+            var portPart = '';
+            eBookConfig.host = "";
+            eBookConfig.app = eBookConfig.host+'/runestone';
+            eBookConfig.ajaxURL = eBookConfig.app+'/ajax/';
+            eBookConfig.logLevel = 10;
+            eBookConfig.loginRequired = true;
+        </script>
+    <script type="text/javascript" async="" src="./Runestone Interactive_files/MathJax.js"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style class="darkreader darkreader--sync" media="screen"></style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style class="darkreader darkreader--sync" media="screen"></style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style class="darkreader darkreader--sync" media="screen"></style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style class="darkreader darkreader--sync" media="screen"></style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style class="darkreader darkreader--sync" media="screen"></style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style class="darkreader darkreader--sync" media="screen"></style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover, .MJXp-munder {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > *, .MJXp-munder > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style class="darkreader darkreader--sync" media="screen"></style></head>
+    <body style=""><div id="MathJax_Message" style="display: none;"></div>
+        
+        <!-- needed for Facebook button -->
+    
+        <!-- Begin navbar -->
+        <div id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+            
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <div>
+                       
+                            <a class="brand-logo" style="background: url(&quot;/runestone/static/images/logo_small.png&quot;) 0px 0px no-repeat transparent; --darkreader-inline-bgcolor:transparent;" "="" data-darkreader-inline-bgcolor="">&nbsp;</a>
+                        
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="divider-vertical"></li>
+                        <!-- social media dropdown -->
+                     
+                        <!-- end social media dropdown -->
+                        <!-- Search Menu -->
+                        
+                        <li class="divider-vertical"></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="https://fopp.umsi.education/assignments/doAssignment?assignment_id=24#" data-toggle="dropdown">
+                              <i class="glyphicon glyphicon-search" style="opacity:0.9;"><span aria-label="Search" class="visuallyhidden">Search</span></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a href="https://fopp.umsi.education/books/published/fopp/index.html" aria-label="index-page">Table of Contents</a></li>
+                              <li><a href="https://fopp.umsi.education/books/published/fopp/genindex.html">Book Index</a></li>
+                              <li class="divider"></li>
+                              <li style="width: 240px;">
+                                <form class="navbar-search" style="margin:10px;" action="https://fopp.umsi.education/books/published/fopp/search.html" method="get">
+                                  <div class="input-group">
+                                    <input type="text" class="form-control" name="q" placeholder="Search this book">
+                                    <span class="input-group-btn">
+                                      <button class="btn btn-primary" style="margin:0;" type="submit">
+                                        <i class="glyphicon glyphicon-search"></i>
+                                      </button>
+                                    </span>
+                                  </div><!-- /input-group -->
+                                  <input type="hidden" name="check_keywords" value="yes">
+                                  <input type="hidden" name="area" value="default">
+                                </form>
+                              </li>
+                            </ul>
+                        </li>
+                        
+                        <!-- user account dropdown -->
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="https://fopp.umsi.education/assignments/doAssignment?assignment_id=24#" data-toggle="dropdown">
+                                <i class="glyphicon glyphicon-user" style="opacity:0.9;"></i>
+                            </a>
+                            <ul class="dropdown-menu user-menu">
+                                
+                                    <li><span class="loggedinuser">username: subham.kumar032@gmail.com</span></li>
+                                
+                                
+                                    <li class="divider"></li>
+                                    <li><a href="https://fopp.umsi.education/assignments/chooseAssignment">Assignments</a></li>
+                                    <li><a href="https://fopp.umsi.education/assignments/practice">Practice</a></li>
+                                    <li class="divider"></li>
+                                    
+                                
+                                <!---
+                                    <li class="divider"></li>
+                                    <li><a href='/runestone/mygroup/schedule'>Group Schedule</a></li>
+                                    <li><a href='/runestone/mygroup/newschedule'>Schedule New Chapter</a></li>
+                                    <li><a href='/runestone/mygroup/manageGroup'>Manage Group</a></li> -->
+                                
+                                
+                                    <li><a href="https://fopp.umsi.education/assignments">Progress Page</a></li>
+                                
+                            </ul>
+                        </li>
+                        <!-- end user account dropdown -->
+                        <li class="divider-vertical"></li>
+                        
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li class="divider-vertical"></li>
+                        
+                            <li><a href="https://fopp.umsi.education/books/published/fopp/index.html">Back to fopp</a></li>
+                        
+                        <li class="divider-vertical"></li>
+                        
+                        <li class="divider-vertical"></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- End navbar -->
+        
+        <!-- begin body content -->
+        <div class="container">
+            
+
+
+<link href="./Runestone Interactive_files/select2.min.css" rel="stylesheet"><style class="darkreader darkreader--cors" media="screen">.select2-container{box-sizing:border-box;display:inline-block;margin:0;position:relative;vertical-align:middle}.select2-container .select2-selection--single{box-sizing:border-box;cursor:pointer;display:block;height:28px;user-select:none;-webkit-user-select:none}.select2-container .select2-selection--single .select2-selection__rendered{display:block;padding-left:8px;padding-right:20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.select2-container .select2-selection--single .select2-selection__clear{position:relative}.select2-container[dir="rtl"] .select2-selection--single .select2-selection__rendered{padding-right:8px;padding-left:20px}.select2-container .select2-selection--multiple{box-sizing:border-box;cursor:pointer;display:block;min-height:32px;user-select:none;-webkit-user-select:none}.select2-container .select2-selection--multiple .select2-selection__rendered{display:inline-block;overflow:hidden;padding-left:8px;text-overflow:ellipsis;white-space:nowrap}.select2-container .select2-search--inline{float:left}.select2-container .select2-search--inline .select2-search__field{box-sizing:border-box;border:none;font-size:100%;margin-top:5px;padding:0}.select2-container .select2-search--inline .select2-search__field::-webkit-search-cancel-button{-webkit-appearance:none}.select2-dropdown{background-color:white;border:1px solid #aaa;border-radius:4px;box-sizing:border-box;display:block;position:absolute;left:-100000px;width:100%;z-index:1051}.select2-results{display:block}.select2-results__options{list-style:none;margin:0;padding:0}.select2-results__option{padding:6px;user-select:none;-webkit-user-select:none}.select2-results__option[aria-selected]{cursor:pointer}.select2-container--open .select2-dropdown{left:0}.select2-container--open .select2-dropdown--above{border-bottom:none;border-bottom-left-radius:0;border-bottom-right-radius:0}.select2-container--open .select2-dropdown--below{border-top:none;border-top-left-radius:0;border-top-right-radius:0}.select2-search--dropdown{display:block;padding:4px}.select2-search--dropdown .select2-search__field{padding:4px;width:100%;box-sizing:border-box}.select2-search--dropdown .select2-search__field::-webkit-search-cancel-button{-webkit-appearance:none}.select2-search--dropdown.select2-search--hide{display:none}.select2-close-mask{border:0;margin:0;padding:0;display:block;position:fixed;left:0;top:0;min-height:100%;min-width:100%;height:auto;width:auto;opacity:0;z-index:99;background-color:#fff;filter:alpha(opacity=0)}.select2-hidden-accessible{border:0 !important;clip:rect(0 0 0 0) !important;height:1px !important;margin:-1px !important;overflow:hidden !important;padding:0 !important;position:absolute !important;width:1px !important}.select2-container--default .select2-selection--single{background-color:#fff;border:1px solid #aaa;border-radius:4px}.select2-container--default .select2-selection--single .select2-selection__rendered{color:#444;line-height:28px}.select2-container--default .select2-selection--single .select2-selection__clear{cursor:pointer;float:right;font-weight:bold}.select2-container--default .select2-selection--single .select2-selection__placeholder{color:#999}.select2-container--default .select2-selection--single .select2-selection__arrow{height:26px;position:absolute;top:1px;right:1px;width:20px}.select2-container--default .select2-selection--single .select2-selection__arrow b{border-color:#888 transparent transparent transparent;border-style:solid;border-width:5px 4px 0 4px;height:0;left:50%;margin-left:-4px;margin-top:-2px;position:absolute;top:50%;width:0}.select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__clear{float:left}.select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__arrow{left:1px;right:auto}.select2-container--default.select2-container--disabled .select2-selection--single{background-color:#eee;cursor:default}.select2-container--default.select2-container--disabled .select2-selection--single .select2-selection__clear{display:none}.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b{border-color:transparent transparent #888 transparent;border-width:0 4px 5px 4px}.select2-container--default .select2-selection--multiple{background-color:white;border:1px solid #aaa;border-radius:4px;cursor:text}.select2-container--default .select2-selection--multiple .select2-selection__rendered{box-sizing:border-box;list-style:none;margin:0;padding:0 5px;width:100%}.select2-container--default .select2-selection--multiple .select2-selection__rendered li{list-style:none}.select2-container--default .select2-selection--multiple .select2-selection__placeholder{color:#999;margin-top:5px;float:left}.select2-container--default .select2-selection--multiple .select2-selection__clear{cursor:pointer;float:right;font-weight:bold;margin-top:5px;margin-right:10px}.select2-container--default .select2-selection--multiple .select2-selection__choice{background-color:#e4e4e4;border:1px solid #aaa;border-radius:4px;cursor:default;float:left;margin-right:5px;margin-top:5px;padding:0 5px}.select2-container--default .select2-selection--multiple .select2-selection__choice__remove{color:#999;cursor:pointer;display:inline-block;font-weight:bold;margin-right:2px}.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover{color:#333}.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice,.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__placeholder,.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-search--inline{float:right}.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice{margin-left:5px;margin-right:auto}.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove{margin-left:2px;margin-right:auto}.select2-container--default.select2-container--focus .select2-selection--multiple{border:solid black 1px;outline:0}.select2-container--default.select2-container--disabled .select2-selection--multiple{background-color:#eee;cursor:default}.select2-container--default.select2-container--disabled .select2-selection__choice__remove{display:none}.select2-container--default.select2-container--open.select2-container--above .select2-selection--single,.select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple{border-top-left-radius:0;border-top-right-radius:0}.select2-container--default.select2-container--open.select2-container--below .select2-selection--single,.select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple{border-bottom-left-radius:0;border-bottom-right-radius:0}.select2-container--default .select2-search--dropdown .select2-search__field{border:1px solid #aaa}.select2-container--default .select2-search--inline .select2-search__field{background:transparent;border:none;outline:0;box-shadow:none;-webkit-appearance:textfield}.select2-container--default .select2-results>.select2-results__options{max-height:200px;overflow-y:auto}.select2-container--default .select2-results__option[role=group]{padding:0}.select2-container--default .select2-results__option[aria-disabled=true]{color:#999}.select2-container--default .select2-results__option[aria-selected=true]{background-color:#ddd}.select2-container--default .select2-results__option .select2-results__option{padding-left:1em}.select2-container--default .select2-results__option .select2-results__option .select2-results__group{padding-left:0}.select2-container--default .select2-results__option .select2-results__option .select2-results__option{margin-left:-1em;padding-left:2em}.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option{margin-left:-2em;padding-left:3em}.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option{margin-left:-3em;padding-left:4em}.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option{margin-left:-4em;padding-left:5em}.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option{margin-left:-5em;padding-left:6em}.select2-container--default .select2-results__option--highlighted[aria-selected]{background-color:#5897fb;color:white}.select2-container--default .select2-results__group{cursor:default;display:block;padding:6px}.select2-container--classic .select2-selection--single{background-color:#f7f7f7;border:1px solid #aaa;border-radius:4px;outline:0;background-image:-webkit-linear-gradient(top, #fff 50%, #eee 100%);background-image:-o-linear-gradient(top, #fff 50%, #eee 100%);background-image:linear-gradient(to bottom, #fff 50%, #eee 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFEEEEEE', GradientType=0)}.select2-container--classic .select2-selection--single:focus{border:1px solid #5897fb}.select2-container--classic .select2-selection--single .select2-selection__rendered{color:#444;line-height:28px}.select2-container--classic .select2-selection--single .select2-selection__clear{cursor:pointer;float:right;font-weight:bold;margin-right:10px}.select2-container--classic .select2-selection--single .select2-selection__placeholder{color:#999}.select2-container--classic .select2-selection--single .select2-selection__arrow{background-color:#ddd;border:none;border-left:1px solid #aaa;border-top-right-radius:4px;border-bottom-right-radius:4px;height:26px;position:absolute;top:1px;right:1px;width:20px;background-image:-webkit-linear-gradient(top, #eee 50%, #ccc 100%);background-image:-o-linear-gradient(top, #eee 50%, #ccc 100%);background-image:linear-gradient(to bottom, #eee 50%, #ccc 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', endColorstr='#FFCCCCCC', GradientType=0)}.select2-container--classic .select2-selection--single .select2-selection__arrow b{border-color:#888 transparent transparent transparent;border-style:solid;border-width:5px 4px 0 4px;height:0;left:50%;margin-left:-4px;margin-top:-2px;position:absolute;top:50%;width:0}.select2-container--classic[dir="rtl"] .select2-selection--single .select2-selection__clear{float:left}.select2-container--classic[dir="rtl"] .select2-selection--single .select2-selection__arrow{border:none;border-right:1px solid #aaa;border-radius:0;border-top-left-radius:4px;border-bottom-left-radius:4px;left:1px;right:auto}.select2-container--classic.select2-container--open .select2-selection--single{border:1px solid #5897fb}.select2-container--classic.select2-container--open .select2-selection--single .select2-selection__arrow{background:transparent;border:none}.select2-container--classic.select2-container--open .select2-selection--single .select2-selection__arrow b{border-color:transparent transparent #888 transparent;border-width:0 4px 5px 4px}.select2-container--classic.select2-container--open.select2-container--above .select2-selection--single{border-top:none;border-top-left-radius:0;border-top-right-radius:0;background-image:-webkit-linear-gradient(top, #fff 0%, #eee 50%);background-image:-o-linear-gradient(top, #fff 0%, #eee 50%);background-image:linear-gradient(to bottom, #fff 0%, #eee 50%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFEEEEEE', GradientType=0)}.select2-container--classic.select2-container--open.select2-container--below .select2-selection--single{border-bottom:none;border-bottom-left-radius:0;border-bottom-right-radius:0;background-image:-webkit-linear-gradient(top, #eee 50%, #fff 100%);background-image:-o-linear-gradient(top, #eee 50%, #fff 100%);background-image:linear-gradient(to bottom, #eee 50%, #fff 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', endColorstr='#FFFFFFFF', GradientType=0)}.select2-container--classic .select2-selection--multiple{background-color:white;border:1px solid #aaa;border-radius:4px;cursor:text;outline:0}.select2-container--classic .select2-selection--multiple:focus{border:1px solid #5897fb}.select2-container--classic .select2-selection--multiple .select2-selection__rendered{list-style:none;margin:0;padding:0 5px}.select2-container--classic .select2-selection--multiple .select2-selection__clear{display:none}.select2-container--classic .select2-selection--multiple .select2-selection__choice{background-color:#e4e4e4;border:1px solid #aaa;border-radius:4px;cursor:default;float:left;margin-right:5px;margin-top:5px;padding:0 5px}.select2-container--classic .select2-selection--multiple .select2-selection__choice__remove{color:#888;cursor:pointer;display:inline-block;font-weight:bold;margin-right:2px}.select2-container--classic .select2-selection--multiple .select2-selection__choice__remove:hover{color:#555}.select2-container--classic[dir="rtl"] .select2-selection--multiple .select2-selection__choice{float:right}.select2-container--classic[dir="rtl"] .select2-selection--multiple .select2-selection__choice{margin-left:5px;margin-right:auto}.select2-container--classic[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove{margin-left:2px;margin-right:auto}.select2-container--classic.select2-container--open .select2-selection--multiple{border:1px solid #5897fb}.select2-container--classic.select2-container--open.select2-container--above .select2-selection--multiple{border-top:none;border-top-left-radius:0;border-top-right-radius:0}.select2-container--classic.select2-container--open.select2-container--below .select2-selection--multiple{border-bottom:none;border-bottom-left-radius:0;border-bottom-right-radius:0}.select2-container--classic .select2-search--dropdown .select2-search__field{border:1px solid #aaa;outline:0}.select2-container--classic .select2-search--inline .select2-search__field{outline:0;box-shadow:none}.select2-container--classic .select2-dropdown{background-color:#fff;border:1px solid transparent}.select2-container--classic .select2-dropdown--above{border-bottom:none}.select2-container--classic .select2-dropdown--below{border-top:none}.select2-container--classic .select2-results>.select2-results__options{max-height:200px;overflow-y:auto}.select2-container--classic .select2-results__option[role=group]{padding:0}.select2-container--classic .select2-results__option[aria-disabled=true]{color:grey}.select2-container--classic .select2-results__option--highlighted[aria-selected]{background-color:#3875d7;color:#fff}.select2-container--classic .select2-results__group{cursor:default;display:block;padding:6px}.select2-container--classic.select2-container--open .select2-dropdown{border-color:#5897fb}</style><style class="darkreader darkreader--sync" media="screen"></style>
+<link href="./Runestone Interactive_files/select2-bootstrap.css" rel="stylesheet"><style class="darkreader darkreader--cors" media="screen">.select2-container--bootstrap {
+  display: block;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
+
+.select2-container--bootstrap .select2-selection {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #555555;
+  font-size: 14px;
+  outline: 0;
+}
+
+.select2-container--bootstrap .select2-selection.form-control {
+  border-radius: 4px;
+}
+
+.select2-container--bootstrap .select2-search--dropdown .select2-search__field {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #555555;
+  font-size: 14px;
+}
+
+.select2-container--bootstrap .select2-search__field {
+  outline: 0;
+  
+  
+}
+
+.select2-container--bootstrap .select2-search__field::-webkit-input-placeholder {
+  color: #999;
+}
+
+.select2-container--bootstrap .select2-search__field:-moz-placeholder {
+  color: #999;
+}
+
+.select2-container--bootstrap .select2-search__field::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.select2-container--bootstrap .select2-search__field:-ms-input-placeholder {
+  color: #999;
+}
+
+.select2-container--bootstrap .select2-results__option {
+  padding: 6px 12px;
+  
+  
+  
+}
+
+.select2-container--bootstrap .select2-results__option[role=group] {
+  padding: 0;
+}
+
+.select2-container--bootstrap .select2-results__option[aria-disabled=true] {
+  color: #777777;
+  cursor: not-allowed;
+}
+
+.select2-container--bootstrap .select2-results__option[aria-selected=true] {
+  background-color: #f5f5f5;
+  color: #262626;
+}
+
+.select2-container--bootstrap .select2-results__option--highlighted[aria-selected] {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+.select2-container--bootstrap .select2-results__option .select2-results__option {
+  padding: 6px 12px;
+}
+
+.select2-container--bootstrap .select2-results__option .select2-results__option .select2-results__group {
+  padding-left: 0;
+}
+
+.select2-container--bootstrap .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -12px;
+  padding-left: 24px;
+}
+
+.select2-container--bootstrap .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -24px;
+  padding-left: 36px;
+}
+
+.select2-container--bootstrap .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -36px;
+  padding-left: 48px;
+}
+
+.select2-container--bootstrap .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -48px;
+  padding-left: 60px;
+}
+
+.select2-container--bootstrap .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -60px;
+  padding-left: 72px;
+}
+
+.select2-container--bootstrap .select2-results__group {
+  color: #777777;
+  display: block;
+  padding: 6px 12px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  white-space: nowrap;
+}
+
+.select2-container--bootstrap.select2-container--focus .select2-selection, .select2-container--bootstrap.select2-container--open .select2-selection {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  border-color: #66afe9;
+}
+
+.select2-container--bootstrap.select2-container--open {
+  
+  
+}
+
+.select2-container--bootstrap.select2-container--open .select2-selection .select2-selection__arrow b {
+  border-color: transparent transparent #999 transparent;
+  border-width: 0 4px 4px 4px;
+}
+
+.select2-container--bootstrap.select2-container--open.select2-container--below .select2-selection {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-color: transparent;
+}
+
+.select2-container--bootstrap.select2-container--open.select2-container--above .select2-selection {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-top-color: transparent;
+}
+
+.select2-container--bootstrap .select2-selection__clear {
+  color: #999;
+  cursor: pointer;
+  float: right;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.select2-container--bootstrap .select2-selection__clear:hover {
+  color: #333;
+}
+
+.select2-container--bootstrap.select2-container--disabled .select2-selection {
+  border-color: #ccc;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.select2-container--bootstrap.select2-container--disabled .select2-selection,
+.select2-container--bootstrap.select2-container--disabled .select2-search__field {
+  cursor: not-allowed;
+}
+
+.select2-container--bootstrap.select2-container--disabled .select2-selection,
+.select2-container--bootstrap.select2-container--disabled .select2-selection--multiple .select2-selection__choice {
+  background-color: #eeeeee;
+}
+
+.select2-container--bootstrap.select2-container--disabled .select2-selection__clear,
+.select2-container--bootstrap.select2-container--disabled .select2-selection--multiple .select2-selection__choice__remove {
+  display: none;
+}
+
+.select2-container--bootstrap .select2-dropdown {
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  border-color: #66afe9;
+  overflow-x: hidden;
+  margin-top: -1px;
+}
+
+.select2-container--bootstrap .select2-dropdown--above {
+  -webkit-box-shadow: 0px -6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0px -6px 12px rgba(0, 0, 0, 0.175);
+  margin-top: 1px;
+}
+
+.select2-container--bootstrap .select2-results > .select2-results__options {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.select2-container--bootstrap .select2-selection--single {
+  height: 34px;
+  line-height: 1.42857143;
+  padding: 6px 24px 6px 12px;
+  
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+  position: absolute;
+  bottom: 0;
+  right: 12px;
+  top: 0;
+  width: 4px;
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
+  border-color: #999 transparent transparent transparent;
+  border-style: solid;
+  border-width: 4px 4px 0 4px;
+  height: 0;
+  left: 0;
+  margin-left: -4px;
+  margin-top: -2px;
+  position: absolute;
+  top: 50%;
+  width: 0;
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
+  color: #555555;
+  padding: 0;
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__placeholder {
+  color: #999;
+}
+
+.select2-container--bootstrap .select2-selection--multiple {
+  min-height: 34px;
+  padding: 0;
+  height: auto;
+  
+  
+  
+}
+
+.select2-container--bootstrap .select2-selection--multiple .select2-selection__rendered {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  line-height: 1.42857143;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.select2-container--bootstrap .select2-selection--multiple .select2-selection__placeholder {
+  color: #999;
+  float: left;
+  margin-top: 5px;
+}
+
+.select2-container--bootstrap .select2-selection--multiple .select2-selection__choice {
+  color: #555555;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: default;
+  float: left;
+  margin: 5px 0 0 6px;
+  padding: 0 6px;
+}
+
+.select2-container--bootstrap .select2-selection--multiple .select2-search--inline .select2-search__field {
+  background: transparent;
+  padding: 0 12px;
+  height: 32px;
+  line-height: 1.42857143;
+  margin-top: 0;
+  min-width: 5em;
+}
+
+.select2-container--bootstrap .select2-selection--multiple .select2-selection__choice__remove {
+  color: #999;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+.select2-container--bootstrap .select2-selection--multiple .select2-selection__choice__remove:hover {
+  color: #333;
+}
+
+.select2-container--bootstrap .select2-selection--multiple .select2-selection__clear {
+  margin-top: 6px;
+}
+
+.select2-container--bootstrap .select2-selection--single.input-sm,
+.input-group-sm .select2-container--bootstrap .select2-selection--single,
+.form-group-sm .select2-container--bootstrap .select2-selection--single {
+  border-radius: 3px;
+  font-size: 12px;
+  height: 30px;
+  line-height: 1.5;
+  padding: 5px 22px 5px 10px;
+  
+}
+
+.select2-container--bootstrap .select2-selection--single.input-sm .select2-selection__arrow b,
+.input-group-sm .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b,
+.form-group-sm .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
+  margin-left: -5px;
+}
+
+.select2-container--bootstrap .select2-selection--multiple.input-sm,
+.input-group-sm .select2-container--bootstrap .select2-selection--multiple,
+.form-group-sm .select2-container--bootstrap .select2-selection--multiple {
+  min-height: 30px;
+  border-radius: 3px;
+}
+
+.select2-container--bootstrap .select2-selection--multiple.input-sm .select2-selection__choice,
+.input-group-sm .select2-container--bootstrap .select2-selection--multiple .select2-selection__choice,
+.form-group-sm .select2-container--bootstrap .select2-selection--multiple .select2-selection__choice {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 4px 0 0 5px;
+  padding: 0 5px;
+}
+
+.select2-container--bootstrap .select2-selection--multiple.input-sm .select2-search--inline .select2-search__field,
+.input-group-sm .select2-container--bootstrap .select2-selection--multiple .select2-search--inline .select2-search__field,
+.form-group-sm .select2-container--bootstrap .select2-selection--multiple .select2-search--inline .select2-search__field {
+  padding: 0 10px;
+  font-size: 12px;
+  height: 28px;
+  line-height: 1.5;
+}
+
+.select2-container--bootstrap .select2-selection--multiple.input-sm .select2-selection__clear,
+.input-group-sm .select2-container--bootstrap .select2-selection--multiple .select2-selection__clear,
+.form-group-sm .select2-container--bootstrap .select2-selection--multiple .select2-selection__clear {
+  margin-top: 5px;
+}
+
+.select2-container--bootstrap .select2-selection--single.input-lg,
+.input-group-lg .select2-container--bootstrap .select2-selection--single,
+.form-group-lg .select2-container--bootstrap .select2-selection--single {
+  border-radius: 6px;
+  font-size: 18px;
+  height: 46px;
+  line-height: 1.3333333;
+  padding: 10px 31px 10px 16px;
+  
+}
+
+.select2-container--bootstrap .select2-selection--single.input-lg .select2-selection__arrow,
+.input-group-lg .select2-container--bootstrap .select2-selection--single .select2-selection__arrow,
+.form-group-lg .select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+  width: 5px;
+}
+
+.select2-container--bootstrap .select2-selection--single.input-lg .select2-selection__arrow b,
+.input-group-lg .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b,
+.form-group-lg .select2-container--bootstrap .select2-selection--single .select2-selection__arrow b {
+  border-width: 5px 5px 0 5px;
+  margin-left: -5px;
+  margin-left: -10px;
+  margin-top: -2.5px;
+}
+
+.select2-container--bootstrap .select2-selection--multiple.input-lg,
+.input-group-lg .select2-container--bootstrap .select2-selection--multiple,
+.form-group-lg .select2-container--bootstrap .select2-selection--multiple {
+  min-height: 46px;
+  border-radius: 6px;
+}
+
+.select2-container--bootstrap .select2-selection--multiple.input-lg .select2-selection__choice,
+.input-group-lg .select2-container--bootstrap .select2-selection--multiple .select2-selection__choice,
+.form-group-lg .select2-container--bootstrap .select2-selection--multiple .select2-selection__choice {
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 4px;
+  margin: 9px 0 0 8px;
+  padding: 0 10px;
+}
+
+.select2-container--bootstrap .select2-selection--multiple.input-lg .select2-search--inline .select2-search__field,
+.input-group-lg .select2-container--bootstrap .select2-selection--multiple .select2-search--inline .select2-search__field,
+.form-group-lg .select2-container--bootstrap .select2-selection--multiple .select2-search--inline .select2-search__field {
+  padding: 0 16px;
+  font-size: 18px;
+  height: 44px;
+  line-height: 1.3333333;
+}
+
+.select2-container--bootstrap .select2-selection--multiple.input-lg .select2-selection__clear,
+.input-group-lg .select2-container--bootstrap .select2-selection--multiple .select2-selection__clear,
+.form-group-lg .select2-container--bootstrap .select2-selection--multiple .select2-selection__clear {
+  margin-top: 10px;
+}
+
+.select2-container--bootstrap .select2-selection.input-lg.select2-container--open .select2-selection--single {
+  
+}
+
+.select2-container--bootstrap .select2-selection.input-lg.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-color: transparent transparent #999 transparent;
+  border-width: 0 5px 5px 5px;
+}
+
+.input-group-lg .select2-container--bootstrap .select2-selection.select2-container--open .select2-selection--single {
+  
+}
+
+.input-group-lg .select2-container--bootstrap .select2-selection.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-color: transparent transparent #999 transparent;
+  border-width: 0 5px 5px 5px;
+}
+
+.select2-container--bootstrap[dir="rtl"] {
+  
+  
+}
+
+.select2-container--bootstrap[dir="rtl"] .select2-selection--single {
+  padding-left: 24px;
+  padding-right: 12px;
+}
+
+.select2-container--bootstrap[dir="rtl"] .select2-selection--single .select2-selection__rendered {
+  padding-right: 0;
+  padding-left: 0;
+  text-align: right;
+  
+}
+
+.select2-container--bootstrap[dir="rtl"] .select2-selection--single .select2-selection__clear {
+  float: left;
+}
+
+.select2-container--bootstrap[dir="rtl"] .select2-selection--single .select2-selection__arrow {
+  left: 12px;
+  right: auto;
+}
+
+.select2-container--bootstrap[dir="rtl"] .select2-selection--single .select2-selection__arrow b {
+  margin-left: 0;
+}
+
+.select2-container--bootstrap[dir="rtl"] .select2-selection--multiple .select2-selection__choice,
+.select2-container--bootstrap[dir="rtl"] .select2-selection--multiple .select2-selection__placeholder,
+.select2-container--bootstrap[dir="rtl"] .select2-selection--multiple .select2-search--inline {
+  float: right;
+}
+
+.select2-container--bootstrap[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
+  margin-left: 0;
+  margin-right: 6px;
+}
+
+.select2-container--bootstrap[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove {
+  margin-left: 2px;
+  margin-right: auto;
+}
+
+
+
+.has-warning .select2-dropdown,
+.has-warning .select2-selection {
+  border-color: #8a6d3b;
+}
+
+.has-warning .select2-container--focus .select2-selection,
+.has-warning .select2-container--open .select2-selection {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+  border-color: #66512c;
+}
+
+.has-warning.select2-drop-active {
+  border-color: #66512c;
+}
+
+.has-warning.select2-drop-active.select2-drop.select2-drop-above {
+  border-top-color: #66512c;
+}
+
+.has-error .select2-dropdown,
+.has-error .select2-selection {
+  border-color: #a94442;
+}
+
+.has-error .select2-container--focus .select2-selection,
+.has-error .select2-container--open .select2-selection {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  border-color: #843534;
+}
+
+.has-error.select2-drop-active {
+  border-color: #843534;
+}
+
+.has-error.select2-drop-active.select2-drop.select2-drop-above {
+  border-top-color: #843534;
+}
+
+.has-success .select2-dropdown,
+.has-success .select2-selection {
+  border-color: #3c763d;
+}
+
+.has-success .select2-container--focus .select2-selection,
+.has-success .select2-container--open .select2-selection {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+  border-color: #2b542c;
+}
+
+.has-success.select2-drop-active {
+  border-color: #2b542c;
+}
+
+.has-success.select2-drop-active.select2-drop.select2-drop-above {
+  border-top-color: #2b542c;
+}
+
+
+
+.input-group > .select2-hidden-accessible:first-child + .select2-container--bootstrap > .selection > .select2-selection,
+.input-group > .select2-hidden-accessible:first-child + .select2-container--bootstrap > .selection > .select2-selection.form-control {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.input-group > .select2-hidden-accessible:not(:first-child) + .select2-container--bootstrap:not(:last-child) > .selection > .select2-selection,
+.input-group > .select2-hidden-accessible:not(:first-child) + .select2-container--bootstrap:not(:last-child) > .selection > .select2-selection.form-control {
+  border-radius: 0;
+}
+
+.input-group > .select2-hidden-accessible:not(:first-child):not(:last-child) + .select2-container--bootstrap:last-child > .selection > .select2-selection,
+.input-group > .select2-hidden-accessible:not(:first-child):not(:last-child) + .select2-container--bootstrap:last-child > .selection > .select2-selection.form-control {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.input-group > .select2-container--bootstrap {
+  display: table;
+  table-layout: fixed;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  margin-bottom: 0;
+  
+  
+}
+
+.input-group > .select2-container--bootstrap > .selection > .select2-selection.form-control {
+  float: none;
+}
+
+.input-group > .select2-container--bootstrap.select2-container--open, .input-group > .select2-container--bootstrap.select2-container--focus {
+  z-index: 3;
+}
+
+.input-group > .select2-container--bootstrap,
+.input-group > .select2-container--bootstrap .input-group-btn,
+.input-group > .select2-container--bootstrap .input-group-btn .btn {
+  vertical-align: top;
+}
+
+
+.form-control.select2-hidden-accessible {
+  position: absolute !important;
+  width: 1px !important;
+}
+
+
+@media (min-width: 768px) {
+  .form-inline .select2-container--bootstrap {
+    display: inline-block;
+  }
+}</style><style class="darkreader darkreader--sync" media="screen"></style>
+<script src="./Runestone Interactive_files/select2.full.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/CLDRPluralRuleParser.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/jquery.i18n.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/jquery.i18n.messagestore.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/jquery.i18n.fallbacks.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/jquery.i18n.language.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/jquery.i18n.parser.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/jquery.i18n.emitter.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/jquery.i18n.emitter.bidi.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/activecode-i18n.en.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/fitb-i18n.en.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/dragndrop-i18n.en.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/parsons-i18n.en.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/mchoice-i18n.en.js"></script>
+<link href="./Runestone Interactive_files/parsons.css" rel="stylesheet"><style class="darkreader darkreader--sync" media="screen"></style>
+<link href="./Runestone Interactive_files/dragndrop.css" rel="stylesheet"><style class="darkreader darkreader--sync" media="screen"></style>
+<link href="./Runestone Interactive_files/prettify.css" rel="stylesheet"><style class="darkreader darkreader--sync" media="screen"></style>
+<link rel="stylesheet" type="text/css" href="./Runestone Interactive_files/jquery.datetimepicker.min.css"><style class="darkreader darkreader--sync" media="screen"></style>
+<script src="./Runestone Interactive_files/jquery.datetimepicker.full.min.js"></script>
+<script src="./Runestone Interactive_files/skulpt.min.js" type="text/javascript"></script>
+<script src="./Runestone Interactive_files/skulpt-stdlib.js" type="text/javascript"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/vega.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/vega-lite.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/vega-embed.js"></script>
+<!--<script src="/books/published/fopp/_static/builtin.js" type="text/javascript"></script>-->
+<script src="./Runestone Interactive_files/codemirror.js" type="text/javascript"></script>
+<script src="./Runestone Interactive_files/runestonebase.js" type="text/javascript"></script>
+<script src="./Runestone Interactive_files/activecode.js" type="text/javascript"></script>
+<script src="./Runestone Interactive_files/sql-wasm.js" type="text/javascript"></script>
+<script src="./Runestone Interactive_files/mchoice.js" type="text/javascript"></script>
+<script src="./Runestone Interactive_files/shortanswer.js" type="text/javascript"></script>
+<script src="./Runestone Interactive_files/prettify.js" type="text/javascript"></script>
+<script src="./Runestone Interactive_files/hammer.min.js" type="text/javascript"></script>
+<script src="./Runestone Interactive_files/parsons.js" type="text/javascript"></script>
+<script src="./Runestone Interactive_files/fitb.js" type="text/javascript"></script>
+<script src="./Runestone Interactive_files/dragndrop.js" type="text/javascript"></script>
+<script src="./Runestone Interactive_files/timeddnd.js" type="text/javascript"></script>
+
+<script src="./Runestone Interactive_files/clickable.js" type="text/javascript"></script>
+<script src="./Runestone Interactive_files/poll.js" type="text/javascript"></script>
+<script src="./Runestone Interactive_files/bookfuncs.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="./Runestone Interactive_files/superfish.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/jquery.tablesorter.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/jquery-ui-1.10.3.custom.min.js"></script>
+
+<link href="./Runestone Interactive_files/codemirror.css" rel="stylesheet" type="text/css"><style class="darkreader darkreader--sync" media="screen"></style>
+<link href="./Runestone Interactive_files/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css"><style class="darkreader darkreader--sync" media="screen"></style>
+
+<script type="text/javascript" src="./Runestone Interactive_files/jquery.idle-timer.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/timedclickable.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/timed_activecode.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/timedfitb.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/timed_shortanswer.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/timedmc.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/timed.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/timedparsons.js"></script>
+
+
+<script type="text/javascript" src="./Runestone Interactive_files/pytutor.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/python.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/javascript.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/sharedb.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/clike.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/codelens.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/htmlmixed.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/css.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/xml.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/jquery.ba-bbq.min.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/jquery.jsPlumb-1.3.10-all-min.js"></script>
+<script type="text/javascript" src="./Runestone Interactive_files/d3.v2.min.js"></script>
+<script async="async" type="text/javascript" src="./Runestone Interactive_files/latest.js"></script>
+
+
+<link rel="stylesheet" href="./Runestone Interactive_files/clickable.css" type="text/css"><style class="darkreader darkreader--sync" media="screen"></style>
+<link rel="stylesheet" href="./Runestone Interactive_files/activecode.css" type="text/css"><style class="darkreader darkreader--sync" media="screen"></style>
+<link rel="stylesheet" href="./Runestone Interactive_files/dragndrop.css" type="text/css"><style class="darkreader darkreader--sync" media="screen"></style>
+<link rel="stylesheet" href="./Runestone Interactive_files/fitb.css" type="text/css"><style class="darkreader darkreader--sync" media="screen"></style>
+<link rel="stylesheet" href="./Runestone Interactive_files/poll.css" type="text/css"><style class="darkreader darkreader--sync" media="screen"></style>
+<link rel="stylesheet" href="./Runestone Interactive_files/modal-basic.css" type="text/css"><style class="darkreader darkreader--sync" media="screen"></style>
+
+<style>
+    .completed {
+        list-style-image: url('/books/published/fopp/_static/completed.png');
+    }
+    .started {
+        list-style-type: circle;
+        list-style-image: url('/books/published/fopp/_static/active.png');
+    }
+</style><style class="darkreader darkreader--sync" media="screen"></style>
+
+
+<script>
+    $('#hideId').css('display','none');
+</script>
+
+<script type="text/javascript">
+  if(typeof eBookConfig === "undefined") {
+      eBookConfig = {};
+  }
+  eBookConfig.host = '';
+  eBookConfig.app = eBookConfig.host+'/runestone';
+  eBookConfig.ajaxURL = eBookConfig.app+'/ajax/';
+  eBookConfig.course = "fopp";
+  eBookConfig.logLevel = 10;
+  eBookConfig.loginRequired = true;
+  eBookConfig.python3 = true ? "True" == "True" : false;
+  
+  eBookConfig.username = "subham.kumar032@gmail.com"
+  eBookConfig.email = "subham.kumar032@gmail.com"
+    
+    eBookConfig.isInstructor = false;
+    
+  
+  eBookConfig.isLoggedIn = true ? "True" == "True" : false;
+  eBookConfig.useRunestoneServices = true;
+  eBookConfig.basecourse = "fopp";
+</script>
+
+
+<div id="part1">
+    <h1 style="text-align:center">course_3_project</h1>
+    <h2 style="margin-left:1cm;">Due: 2018-11-25 01:37:00</h2>
+    <span style="float:right; margin-right:1cm;">
+        
+            Score: 6.0 of 6 = 100.0%
+        
+    </span>
+    <div style="background-color: powderblue; margin-left: 2cm; margin-right: 2cm; --darkreader-inline-bgcolor:#18454b;" data-darkreader-inline-bgcolor="">
+        <p style="margin-left:0.5cm; margin-right:0.5cm;">Description: Final Project for Course 3 - OMDB and TasteDive Mashup</p>
+    </div>
+
+    
+
+    
+        <div id="questions">
+            <style>
+                .ac_section > * {
+                    max-width: 100%;
+                }
+            </style><style class="darkreader darkreader--sync" media="screen"></style>
+            <h3>Questions</h3>
+                
+                    
+                    
+                            
+                                <div style="float:right; width:30%;">
+                                <h4 style="text-align:center;">Score: 1.0 / 1</h4>
+                                <p style="margin-left:2%;">Comment: autograded</p>
+                                </div>
+                            
+                            <div class="oneq full-width" id="0">
+                                <script class="htmlblock" type="text/html">
+&lt;div data-childcomponent=&quot;assess_ac_24_1_1_1&quot; class=&quot;runestone explainer ac_section alert alert-warning&quot;&gt;
+&lt;p&gt;This project will take you through the process of mashing up data from two different APIs to make movie recommendations. The TasteDive API lets you provide a movie (or bands, TV shows, etc.) as a query input, and returns a set of related items. The OMDB API lets you provide a movie title as a query input and get back data about the movie, including scores from various review sites (Rotten Tomatoes, IMDB, etc.).&lt;/p&gt;
+&lt;p&gt;You will put those two together. You will use TasteDive to get related movies for a whole list of titles. You’ll combine the resulting lists of related movies, and sort them according to their Rotten Tomatoes scores (which will require making API calls to the OMDB API.)&lt;/p&gt;
+&lt;p&gt;To avoid problems with rate limits and site accessibility, we have provided a cache file with results for all the queries you need to make to both OMDB and TasteDive. Just use &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;requests_with_caching.get()&lt;/span&gt;&lt;/code&gt; rather than &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;requests.get()&lt;/span&gt;&lt;/code&gt;. If you’re having trouble, you may not be formatting your queries properly, or you may not be asking for data that exists in our cache. We will try to provide as much information as we can to help guide you to form queries for which data exists in the cache.&lt;/p&gt;
+&lt;p&gt;Your first task will be to fetch data from TasteDive. The documentation for the API is at &lt;a class=&quot;reference external&quot; href=&quot;https://tastedive.com/read/api&quot;&gt;https://tastedive.com/read/api&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Define a function, called &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;get_movies_from_tastedive&lt;/span&gt;&lt;/code&gt;. It should take one input parameter, a string that is the name of a movie or music artist. The function should return the 5 TasteDive results that are associated with that string; be sure to only get movies, not other kinds of media. It will be a python dictionary with just one key, ‘Similar’.&lt;/p&gt;
+&lt;p&gt;Try invoking your function with the input “Black Panther”.&lt;/p&gt;
+&lt;p&gt;HINT: Be sure to include &lt;strong&gt;only&lt;/strong&gt; &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;q&lt;/span&gt;&lt;/code&gt;, &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;type&lt;/span&gt;&lt;/code&gt;, and &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;limit&lt;/span&gt;&lt;/code&gt; as parameters in order to extract data from the cache. If any other parameters are included, then the function will not be able to recognize the data that you’re attempting to pull from the cache. Remember, you will &lt;em&gt;not&lt;/em&gt; need an api key in order to complete the project, because all data will be found in the cache.&lt;/p&gt;
+&lt;p&gt;The cache includes data for the following queries:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;table class=&quot;docutils align-default&quot;&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 43%&quot; /&gt;
+&lt;col style=&quot;width: 29%&quot; /&gt;
+&lt;col style=&quot;width: 29%&quot; /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&quot;row-odd&quot;&gt;&lt;th class=&quot;head&quot;&gt;&lt;p&gt;q&lt;/p&gt;&lt;/th&gt;
+&lt;th class=&quot;head&quot;&gt;&lt;p&gt;type&lt;/p&gt;&lt;/th&gt;
+&lt;th class=&quot;head&quot;&gt;&lt;p&gt;limit&lt;/p&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&quot;row-even&quot;&gt;&lt;td&gt;&lt;p&gt;Black Panther&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&amp;lt;omitted&amp;gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&amp;lt;omitted&amp;gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-odd&quot;&gt;&lt;td&gt;&lt;p&gt;Black Panther&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&amp;lt;omitted&amp;gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-even&quot;&gt;&lt;td&gt;&lt;p&gt;Black Panther&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;movies&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&amp;lt;omitted&amp;gt;&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-odd&quot;&gt;&lt;td&gt;&lt;p&gt;Black Panther&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;movies&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-even&quot;&gt;&lt;td&gt;&lt;p&gt;Tony Bennett&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;&amp;lt;omitted&amp;gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-odd&quot;&gt;&lt;td&gt;&lt;p&gt;Tony Bennett&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;movies&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-even&quot;&gt;&lt;td&gt;&lt;p&gt;Captain Marvel&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;movies&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-odd&quot;&gt;&lt;td&gt;&lt;p&gt;Bridesmaids&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;movies&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;row-even&quot;&gt;&lt;td&gt;&lt;p&gt;Sherlock Holmes&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;movies&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;&lt;p&gt;5&lt;/p&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+
+&lt;textarea data-component=&quot;activecode&quot; id=assess_ac_24_1_1_1 data-lang=&quot;python&quot; 
+      data-timelimit=25000  data-codelens=&quot;true&quot;  
+    data-audio=&#x27;&#x27;      
+          &gt;
+
+# some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages
+# get_movies_from_tastedive(&quot;Bridesmaids&quot;)
+# get_movies_from_tastedive(&quot;Black Panther&quot;)
+
+=====
+
+from unittest.gui import TestCaseGui
+
+class myTests(TestCaseGui):
+
+  def test_get_movies_from_tastedive_typical(self):
+    results = get_movies_from_tastedive(&quot;Bridesmaids&quot;)[&#x27;Similar&#x27;][&quot;Info&quot;][0][&quot;Name&quot;]
+    expected = &quot;Bridesmaids&quot;
+    self.assertEqual(results, expected, &quot;Testing that the results for Bridesmaids is the expected result.&quot;)
+    self.assertEqual(type(get_movies_from_tastedive(&quot;Black Panther&quot;)), type({}), &quot;Testing that the correct python type is returned.&quot;)
+
+  def test_get_movies_from_tastedive_limits(self):
+    movies = get_movies_from_tastedive(&quot;Black Panther&quot;)[&#x27;Similar&#x27;][&#x27;Results&#x27;]
+    self.assertEqual(len(movies), 5, &quot;Testing that get_movies_from_tastedive returns only 5 results&quot;)
+
+
+  def test_get_movies_from_tastedive_restrictions(self):
+    results = get_movies_from_tastedive(&quot;Tony Bennett&quot;)
+    non_movies = filter((lambda x: x[&#x27;Type&#x27;] != &quot;movie&quot;), results[&#x27;Similar&#x27;][&quot;Results&quot;])
+    self.assertEqual(len(list(non_movies)), 0, &quot;Testing that get_movies_from_tastedive retrieves only movies and not music.&quot;)
+
+
+
+myTests().main()
+&lt;/textarea&gt;
+&lt;/div&gt;
+</script>
+                            
+<div data-childcomponent="assess_ac_24_1_1_1" class="runestone explainer ac_section alert alert-warning">
+<p>This project will take you through the process of mashing up data from two different APIs to make movie recommendations. The TasteDive API lets you provide a movie (or bands, TV shows, etc.) as a query input, and returns a set of related items. The OMDB API lets you provide a movie title as a query input and get back data about the movie, including scores from various review sites (Rotten Tomatoes, IMDB, etc.).</p>
+<p>You will put those two together. You will use TasteDive to get related movies for a whole list of titles. You’ll combine the resulting lists of related movies, and sort them according to their Rotten Tomatoes scores (which will require making API calls to the OMDB API.)</p>
+<p>To avoid problems with rate limits and site accessibility, we have provided a cache file with results for all the queries you need to make to both OMDB and TasteDive. Just use <code class="docutils literal notranslate"><span class="pre">requests_with_caching.get()</span></code> rather than <code class="docutils literal notranslate"><span class="pre">requests.get()</span></code>. If you’re having trouble, you may not be formatting your queries properly, or you may not be asking for data that exists in our cache. We will try to provide as much information as we can to help guide you to form queries for which data exists in the cache.</p>
+<p>Your first task will be to fetch data from TasteDive. The documentation for the API is at <a class="reference external" href="https://tastedive.com/read/api">https://tastedive.com/read/api</a>.</p>
+<p>Define a function, called <code class="docutils literal notranslate"><span class="pre">get_movies_from_tastedive</span></code>. It should take one input parameter, a string that is the name of a movie or music artist. The function should return the 5 TasteDive results that are associated with that string; be sure to only get movies, not other kinds of media. It will be a python dictionary with just one key, ‘Similar’.</p>
+<p>Try invoking your function with the input “Black Panther”.</p>
+<p>HINT: Be sure to include <strong>only</strong> <code class="docutils literal notranslate"><span class="pre">q</span></code>, <code class="docutils literal notranslate"><span class="pre">type</span></code>, and <code class="docutils literal notranslate"><span class="pre">limit</span></code> as parameters in order to extract data from the cache. If any other parameters are included, then the function will not be able to recognize the data that you’re attempting to pull from the cache. Remember, you will <em>not</em> need an api key in order to complete the project, because all data will be found in the cache.</p>
+<p>The cache includes data for the following queries:</p>
+<blockquote>
+<div><table class="align-default table" border="0">
+<colgroup>
+<col style="width: 43%">
+<col style="width: 29%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>q</p></th>
+<th class="head"><p>type</p></th>
+<th class="head"><p>limit</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Black Panther</p></td>
+<td><p>&lt;omitted&gt;</p></td>
+<td><p>&lt;omitted&gt;</p></td>
+</tr>
+<tr class="row-odd"><td><p>Black Panther</p></td>
+<td><p>&lt;omitted&gt;</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>Black Panther</p></td>
+<td><p>movies</p></td>
+<td><p>&lt;omitted&gt;</p></td>
+</tr>
+<tr class="row-odd"><td><p>Black Panther</p></td>
+<td><p>movies</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>Tony Bennett</p></td>
+<td><p>&lt;omitted&gt;</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tony Bennett</p></td>
+<td><p>movies</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>Captain Marvel</p></td>
+<td><p>movies</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bridesmaids</p></td>
+<td><p>movies</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>Sherlock Holmes</p></td>
+<td><p>movies</p></td>
+<td><p>5</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+
+<div class="ac_section alert alert-warning" id="assess_ac_24_1_1_1" lang="python"><div class="ac_actions col-md-12"><button class="btn btn-success run-button" type="button">Save &amp; Run</button><button class="btn btn-default" type="button">Load History</button><button class="ac_opt btn btn-default" style="margin-left: 10px;">Show CodeLens</button></div><div id="assess-ac-24-1-1-1"></div><div class="ac_code_div col-md-12"><div class="CodeMirror cm-s-default ui-resizable"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 34px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none; --darkreader-inline-outline: initial;" data-darkreader-inline-outline=""></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true" style="display: block; right: 0px; left: 30px;"><div style="height: 100%; min-height: 1px; width: 1077px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 30px; margin-bottom: -15px; border-right-width: 15px; min-height: 128px; min-width: 1077.45px; padding-right: 0px; padding-bottom: 15px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none; --darkreader-inline-outline: initial;" data-darkreader-inline-outline=""><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 20px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># get_movies_from_tastedive("Bridesmaids")</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># get_movies_from_tastedive("Black Panther")</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">6</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 15px solid transparent; top: 128px; --darkreader-inline-border-bottom:transparent;" data-darkreader-inline-border-bottom=""></div><div class="CodeMirror-gutters" style="height: 158px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div></div></div><div style="clear: both;"></div><div class="ac_output col-md-12"><pre id="assess_ac_24_1_1_1_stdout" style="visibility: hidden;"></pre><div id="assess_ac_24_1_1_1_graphics" class="ac-canvas"></div></div><div class="col-md-12" style="display: none;"></div><div class="col-md-12" style="display: none;"></div><div style="clear: both;"></div><p class="runestone_caption runestone_caption_text">ActiveCode (assess_ac_24_1_1_1)</p></div>
+</div>
+</div>
+
+                        
+                    
+                            
+                                <div style="float:right; width:30%;">
+                                <h4 style="text-align:center;">Score: 1.0 / 1</h4>
+                                <p style="margin-left:2%;">Comment: autograded</p>
+                                </div>
+                            
+                            <div class="oneq full-width" id="1">
+                                <script class="htmlblock" type="text/html">
+&lt;div data-childcomponent=&quot;assess_ac_24_1_1_2&quot; class=&quot;runestone explainer ac_section alert alert-warning&quot;&gt;
+&lt;p&gt;Please copy the completed function from above into this active code window. Next, you will need to write a function that extracts just the list of movie titles from a dictionary returned by &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;get_movies_from_tastedive&lt;/span&gt;&lt;/code&gt;. Call it &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;extract_movie_titles&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;textarea data-component=&quot;activecode&quot; id=assess_ac_24_1_1_2 data-lang=&quot;python&quot; 
+      data-timelimit=25000  data-codelens=&quot;true&quot;  
+    data-audio=&#x27;&#x27;      
+          &gt;
+
+# some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages
+# extract_movie_titles(get_movies_from_tastedive(&quot;Tony Bennett&quot;))
+# extract_movie_titles(get_movies_from_tastedive(&quot;Black Panther&quot;))
+=====
+
+from unittest.gui import TestCaseGui
+
+class myTests(TestCaseGui):
+
+  def test_extract_movie_titles(self):
+    results = [&#x27;The Startup Kids&#x27;, &#x27;Charlie Chaplin&#x27;, &#x27;Venus In Fur&#x27;, &#x27;Loving&#x27;, &#x27;The African Queen&#x27;]
+    self.assertEqual(extract_movie_titles(get_movies_from_tastedive(&quot;Tony Bennett&quot;)), results, &#x27;Testing that correct results are returned for extract_movie_titles(get_movies_from_tastedive(&quot;Tony Bennett&quot;).&#x27;)
+
+
+myTests().main()
+&lt;/textarea&gt;
+&lt;/div&gt;
+</script>
+                            
+<div data-childcomponent="assess_ac_24_1_1_2" class="runestone explainer ac_section alert alert-warning">
+<p>Please copy the completed function from above into this active code window. Next, you will need to write a function that extracts just the list of movie titles from a dictionary returned by <code class="docutils literal notranslate"><span class="pre">get_movies_from_tastedive</span></code>. Call it <code class="docutils literal notranslate"><span class="pre">extract_movie_titles</span></code>.</p>
+
+<div class="ac_section alert alert-warning" id="assess_ac_24_1_1_2" lang="python"><div class="ac_actions col-md-12"><button class="btn btn-success run-button" type="button">Save &amp; Run</button><button class="btn btn-default" type="button">Load History</button><button class="ac_opt btn btn-default" style="margin-left: 10px;">Show CodeLens</button></div><div id="assess-ac-24-1-1-2"></div><div class="ac_code_div col-md-12"><div class="CodeMirror cm-s-default ui-resizable"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 34px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none; --darkreader-inline-outline: initial;" data-darkreader-inline-outline=""></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true" style="display: block; right: 0px; left: 30px;"><div style="height: 100%; min-height: 1px; width: 1077px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 30px; margin-bottom: -15px; border-right-width: 15px; min-height: 108px; min-width: 1077.45px; padding-right: 0px; padding-bottom: 15px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none; --darkreader-inline-outline: initial;" data-darkreader-inline-outline=""><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 20px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># extract_movie_titles(get_movies_from_tastedive("Tony Bennett"))</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># extract_movie_titles(get_movies_from_tastedive("Black Panther"))</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 15px solid transparent; top: 108px; --darkreader-inline-border-bottom:transparent;" data-darkreader-inline-border-bottom=""></div><div class="CodeMirror-gutters" style="height: 138px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div></div></div><div style="clear: both;"></div><div class="ac_output col-md-12"><pre id="assess_ac_24_1_1_2_stdout" style="visibility: hidden;"></pre><div id="assess_ac_24_1_1_2_graphics" class="ac-canvas"></div></div><div class="col-md-12" style="display: none;"></div><div class="col-md-12" style="display: none;"></div><div style="clear: both;"></div><p class="runestone_caption runestone_caption_text">ActiveCode (assess_ac_24_1_1_2)</p></div>
+</div>
+</div>
+
+                        
+                    
+                            
+                                <div style="float:right; width:30%;">
+                                <h4 style="text-align:center;">Score: 1.0 / 1</h4>
+                                <p style="margin-left:2%;">Comment: autograded</p>
+                                </div>
+                            
+                            <div class="oneq full-width" id="2">
+                                <script class="htmlblock" type="text/html">
+&lt;div data-childcomponent=&quot;assess_ac_24_1_1_3&quot; class=&quot;runestone explainer ac_section alert alert-warning&quot;&gt;
+&lt;p&gt;Please copy the completed functions from the two code windows above into this active code window. Next, you’ll write a function, called &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;get_related_titles&lt;/span&gt;&lt;/code&gt;. It takes &lt;em&gt;a list of movie titles&lt;/em&gt; as input. It gets five related movies for each from TasteDive, extracts the titles for all of them, and combines them all into a single list. Don’t include the same movie twice.&lt;/p&gt;
+
+&lt;textarea data-component=&quot;activecode&quot; id=assess_ac_24_1_1_3 data-lang=&quot;python&quot; 
+      data-timelimit=25000  data-codelens=&quot;true&quot;  
+    data-audio=&#x27;&#x27;      
+          &gt;
+
+# some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages
+# get_related_titles([&quot;Black Panther&quot;, &quot;Captain Marvel&quot;])
+# get_related_titles([])
+
+=====
+
+from unittest.gui import TestCaseGui
+
+class myTests(TestCaseGui):
+
+  def test_related_titles(self):
+    expected_results_from_cache = [&#x27;Captain Marvel&#x27;, &#x27;Avengers: Infinity War&#x27;, &#x27;Ant-Man And The Wasp&#x27;, &#x27;The Fate Of The Furious&#x27;, &#x27;Deadpool 2&#x27;, &#x27;Inhumans&#x27;, &#x27;Venom&#x27;, &#x27;American Assassin&#x27;, &#x27;Black Panther&#x27;]
+    actual_results_from_cache = get_related_titles([&quot;Black Panther&quot;, &quot;Captain Marvel&quot;])
+    self.assertEqual(get_related_titles([]), [], &#x27;Testing that the correct response is returned when no titles are included.&#x27;)
+    self.assertEqual(actual_results_from_cache, expected_results_from_cache, &#x27;Testing that the correct response is returned when searching for Black Panther and Captain Marvel.&#x27;)
+
+
+
+myTests().main()
+&lt;/textarea&gt;
+&lt;/div&gt;
+</script>
+                            
+<div data-childcomponent="assess_ac_24_1_1_3" class="runestone explainer ac_section alert alert-warning">
+<p>Please copy the completed functions from the two code windows above into this active code window. Next, you’ll write a function, called <code class="docutils literal notranslate"><span class="pre">get_related_titles</span></code>. It takes <em>a list of movie titles</em> as input. It gets five related movies for each from TasteDive, extracts the titles for all of them, and combines them all into a single list. Don’t include the same movie twice.</p>
+
+<div class="ac_section alert alert-warning" id="assess_ac_24_1_1_3" lang="python"><div class="ac_actions col-md-12"><button class="btn btn-success run-button" type="button">Save &amp; Run</button><button class="btn btn-default" type="button">Load History</button><button class="ac_opt btn btn-default" style="margin-left: 10px;">Show CodeLens</button></div><div id="assess-ac-24-1-1-3"></div><div class="ac_code_div col-md-12"><div class="CodeMirror cm-s-default ui-resizable"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 34px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none; --darkreader-inline-outline: initial;" data-darkreader-inline-outline=""></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true" style="display: block; right: 0px; left: 30px;"><div style="height: 100%; min-height: 1px; width: 1077px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 30px; margin-bottom: -15px; border-right-width: 15px; min-height: 128px; min-width: 1077.45px; padding-right: 0px; padding-bottom: 15px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none; --darkreader-inline-outline: initial;" data-darkreader-inline-outline=""><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 20px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># get_related_titles(["Black Panther", "Captain Marvel"])</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># get_related_titles([])</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">6</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 15px solid transparent; top: 128px; --darkreader-inline-border-bottom:transparent;" data-darkreader-inline-border-bottom=""></div><div class="CodeMirror-gutters" style="height: 158px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div></div></div><div style="clear: both;"></div><div class="ac_output col-md-12"><pre id="assess_ac_24_1_1_3_stdout" style="visibility: hidden;"></pre><div id="assess_ac_24_1_1_3_graphics" class="ac-canvas"></div></div><div class="col-md-12" style="display: none;"></div><div class="col-md-12" style="display: none;"></div><div style="clear: both;"></div><p class="runestone_caption runestone_caption_text">ActiveCode (assess_ac_24_1_1_3)</p></div>
+</div>
+</div>
+
+                        
+                    
+                            
+                                <div style="float:right; width:30%;">
+                                <h4 style="text-align:center;">Score: 1.0 / 1</h4>
+                                <p style="margin-left:2%;">Comment: autograded</p>
+                                </div>
+                            
+                            <div class="oneq full-width" id="3">
+                                <script class="htmlblock" type="text/html">
+&lt;div data-childcomponent=&quot;assess_ac_24_1_1_4&quot; class=&quot;runestone explainer ac_section alert alert-warning&quot;&gt;
+&lt;p&gt;Your next task will be to fetch data from OMDB. The documentation for the API is at &lt;a class=&quot;reference external&quot; href=&quot;https://www.omdbapi.com/&quot;&gt;https://www.omdbapi.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Define a function called &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;get_movie_data&lt;/span&gt;&lt;/code&gt;. It takes in one parameter which is a string that should represent the title of a movie you want to search. The function should return a dictionary with information about that movie.&lt;/p&gt;
+&lt;p&gt;Again, use &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;requests_with_caching.get()&lt;/span&gt;&lt;/code&gt;. For the queries on movies that are already in the cache, you &lt;em&gt;won’t&lt;/em&gt; need an api key. You will need to provide the following keys: &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;t&lt;/span&gt;&lt;/code&gt; and &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;r&lt;/span&gt;&lt;/code&gt;. As with the TasteDive cache, be sure to &lt;strong&gt;only&lt;/strong&gt; include those two parameters in order to extract existing data from the cache.&lt;/p&gt;
+
+&lt;textarea data-component=&quot;activecode&quot; id=assess_ac_24_1_1_4 data-lang=&quot;python&quot; 
+      data-timelimit=25000  data-codelens=&quot;true&quot;  
+    data-audio=&#x27;&#x27;      
+          &gt;
+
+# some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages
+# get_movie_data(&quot;Venom&quot;)
+# get_movie_data(&quot;Baby Mama&quot;)
+
+=====
+
+from unittest.gui import TestCaseGui
+
+class myTests(TestCaseGui):
+
+  def test_get_movie_data(self):
+    self.assertEqual(type(get_movie_data(&quot;Venom&quot;)), type({}), &quot;Testing that the correct python type is returned.&quot;)
+    self.assertEqual(get_movie_data(&quot;Baby Mama&quot;)[&quot;Title&quot;], &quot;Baby Mama&quot;, &quot;Testing that the results match the query.&quot;)
+
+
+
+myTests().main()
+&lt;/textarea&gt;
+&lt;/div&gt;
+</script>
+                            
+<div data-childcomponent="assess_ac_24_1_1_4" class="runestone explainer ac_section alert alert-warning">
+<p>Your next task will be to fetch data from OMDB. The documentation for the API is at <a class="reference external" href="https://www.omdbapi.com/">https://www.omdbapi.com/</a></p>
+<p>Define a function called <code class="docutils literal notranslate"><span class="pre">get_movie_data</span></code>. It takes in one parameter which is a string that should represent the title of a movie you want to search. The function should return a dictionary with information about that movie.</p>
+<p>Again, use <code class="docutils literal notranslate"><span class="pre">requests_with_caching.get()</span></code>. For the queries on movies that are already in the cache, you <em>won’t</em> need an api key. You will need to provide the following keys: <code class="docutils literal notranslate"><span class="pre">t</span></code> and <code class="docutils literal notranslate"><span class="pre">r</span></code>. As with the TasteDive cache, be sure to <strong>only</strong> include those two parameters in order to extract existing data from the cache.</p>
+
+<div class="ac_section alert alert-warning" id="assess_ac_24_1_1_4" lang="python"><div class="ac_actions col-md-12"><button class="btn btn-success run-button" type="button">Save &amp; Run</button><button class="btn btn-default" type="button">Load History</button><button class="ac_opt btn btn-default" style="margin-left: 10px;">Show CodeLens</button></div><div id="assess-ac-24-1-1-4"></div><div class="ac_code_div col-md-12"><div class="CodeMirror cm-s-default ui-resizable"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 34px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none; --darkreader-inline-outline: initial;" data-darkreader-inline-outline=""></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true" style="display: block; right: 0px; left: 30px;"><div style="height: 100%; min-height: 1px; width: 1077px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 30px; margin-bottom: -15px; border-right-width: 15px; min-height: 128px; min-width: 1077.45px; padding-right: 0px; padding-bottom: 15px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none; --darkreader-inline-outline: initial;" data-darkreader-inline-outline=""><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 20px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># get_movie_data("Venom")</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># get_movie_data("Baby Mama")</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">6</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 15px solid transparent; top: 128px; --darkreader-inline-border-bottom:transparent;" data-darkreader-inline-border-bottom=""></div><div class="CodeMirror-gutters" style="height: 158px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div></div></div><div style="clear: both;"></div><div class="ac_output col-md-12"><pre id="assess_ac_24_1_1_4_stdout" style="visibility: hidden;"></pre><div id="assess_ac_24_1_1_4_graphics" class="ac-canvas"></div></div><div class="col-md-12" style="display: none;"></div><div class="col-md-12" style="display: none;"></div><div style="clear: both;"></div><p class="runestone_caption runestone_caption_text">ActiveCode (assess_ac_24_1_1_4)</p></div>
+</div>
+</div>
+
+                        
+                    
+                            
+                                <div style="float:right; width:30%;">
+                                <h4 style="text-align:center;">Score: 1.0 / 1</h4>
+                                <p style="margin-left:2%;">Comment: autograded</p>
+                                </div>
+                            
+                            <div class="oneq full-width" id="4">
+                                <script class="htmlblock" type="text/html">
+&lt;div data-childcomponent=&quot;assess_ac_24_1_1_5&quot; class=&quot;runestone explainer ac_section alert alert-warning&quot;&gt;
+&lt;p&gt;Please copy the completed function from above into this active code window. Now write a function called &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;get_movie_rating&lt;/span&gt;&lt;/code&gt;. It takes an OMDB dictionary result for one movie and extracts the Rotten Tomatoes rating as an integer. For example, if given the OMDB dictionary for “Black Panther”, it would return 97. If there is no Rotten Tomatoes rating, return 0.&lt;/p&gt;
+
+&lt;textarea data-component=&quot;activecode&quot; id=assess_ac_24_1_1_5 data-lang=&quot;python&quot; 
+      data-timelimit=25000  data-codelens=&quot;true&quot;  
+    data-audio=&#x27;&#x27;      
+          &gt;
+
+# some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages
+# get_movie_rating(get_movie_data(&quot;Deadpool 2&quot;))
+
+=====
+
+from unittest.gui import TestCaseGui
+
+class myTests(TestCaseGui):
+
+  def test_type(self):
+    self.assertEqual(type(get_movie_rating(get_movie_data(&quot;Deadpool 2&quot;))), type(9), &quot;Testing that a dictionary is returned.&quot;)
+
+  def test_output(self):
+    self.assertEqual(get_movie_rating(get_movie_data(&quot;Venom&quot;)), 0, &quot;Testing that the code is acurate for Venom (no rating).&quot;)
+    self.assertEqual(get_movie_rating(get_movie_data(&quot;Deadpool 2&quot;)), 83, &quot;Testing that the code for &#x27;Deadpool 2&#x27;.&quot;)
+
+myTests().main()
+&lt;/textarea&gt;
+&lt;/div&gt;
+</script>
+                            
+<div data-childcomponent="assess_ac_24_1_1_5" class="runestone explainer ac_section alert alert-warning">
+<p>Please copy the completed function from above into this active code window. Now write a function called <code class="docutils literal notranslate"><span class="pre">get_movie_rating</span></code>. It takes an OMDB dictionary result for one movie and extracts the Rotten Tomatoes rating as an integer. For example, if given the OMDB dictionary for “Black Panther”, it would return 97. If there is no Rotten Tomatoes rating, return 0.</p>
+
+<div class="ac_section alert alert-warning" id="assess_ac_24_1_1_5" lang="python"><div class="ac_actions col-md-12"><button class="btn btn-success run-button" type="button">Save &amp; Run</button><button class="btn btn-default" type="button">Load History</button><button class="ac_opt btn btn-default" style="margin-left: 10px;">Show CodeLens</button></div><div id="assess-ac-24-1-1-5"></div><div class="ac_code_div col-md-12"><div class="CodeMirror cm-s-default ui-resizable"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 34px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none; --darkreader-inline-outline: initial;" data-darkreader-inline-outline=""></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true" style="display: block; right: 0px; left: 30px;"><div style="height: 100%; min-height: 1px; width: 1077px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 30px; margin-bottom: -15px; border-right-width: 15px; min-height: 108px; min-width: 1077.45px; padding-right: 0px; padding-bottom: 15px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none; --darkreader-inline-outline: initial;" data-darkreader-inline-outline=""><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 20px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># get_movie_rating(get_movie_data("Deadpool 2"))</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 15px solid transparent; top: 108px; --darkreader-inline-border-bottom:transparent;" data-darkreader-inline-border-bottom=""></div><div class="CodeMirror-gutters" style="height: 138px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div></div></div><div style="clear: both;"></div><div class="ac_output col-md-12"><pre id="assess_ac_24_1_1_5_stdout" style="visibility: hidden;"></pre><div id="assess_ac_24_1_1_5_graphics" class="ac-canvas"></div></div><div class="col-md-12" style="display: none;"></div><div class="col-md-12" style="display: none;"></div><div style="clear: both;"></div><p class="runestone_caption runestone_caption_text">ActiveCode (assess_ac_24_1_1_5)</p></div>
+</div>
+</div>
+
+                        
+                    
+                            
+                                <div style="float:right; width:30%;">
+                                <h4 style="text-align:center;">Score: 1.0 / 1</h4>
+                                <p style="margin-left:2%;">Comment: autograded</p>
+                                </div>
+                            
+                            <div class="oneq full-width" id="5">
+                                <script class="htmlblock" type="text/html">
+&lt;div data-childcomponent=&quot;assess_ac_24_1_1_6&quot; class=&quot;runestone explainer ac_section alert alert-warning&quot;&gt;
+&lt;p&gt;Now, you’ll put it all together. Don’t forget to copy all of the functions that you have previously defined into this code window. Define a function &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;get_sorted_recommendations&lt;/span&gt;&lt;/code&gt;. It takes a list of movie titles as an input. It returns a sorted list of related movie titles as output, up to five related movies for each input movie title. The movies should be sorted in descending order by their Rotten Tomatoes rating, as returned by the &lt;code class=&quot;docutils literal notranslate&quot;&gt;&lt;span class=&quot;pre&quot;&gt;get_movie_rating&lt;/span&gt;&lt;/code&gt; function. Break ties in reverse alphabetic order, so that ‘Yahşi Batı’ comes before ‘Eyyvah Eyvah’.&lt;/p&gt;
+
+&lt;textarea data-component=&quot;activecode&quot; id=assess_ac_24_1_1_6 data-lang=&quot;python&quot; 
+      data-timelimit=25000  data-codelens=&quot;true&quot;  
+    data-audio=&#x27;&#x27;      
+          &gt;
+
+# some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages
+# get_sorted_recommendations([&quot;Bridesmaids&quot;, &quot;Sherlock Holmes&quot;])
+
+=====
+
+from unittest.gui import TestCaseGui
+
+class myTests(TestCaseGui):
+
+  def test_output(self):
+    sample_actual_recommendations = get_sorted_recommendations([&quot;Bridesmaids&quot;, &quot;Sherlock Holmes&quot;])
+    sample_expected_recommendations = [&#x27;Date Night&#x27;, &#x27;The Heat&#x27;, &#x27;Baby Mama&#x27;, &#x27;The Five-Year Engagement&#x27;, &#x27;Sherlock Holmes: A Game Of Shadows&#x27;, &#x27;Bachelorette&#x27;, &#x27;Prince Of Persia: The Sands Of Time&#x27;, &#x27;Pirates Of The Caribbean: On Stranger Tides&#x27;, &#x27;Yahşi Batı&#x27;, &#x27;Eyyvah Eyvah&#x27;]
+    self.assertEqual(sample_actual_recommendations, sample_expected_recommendations, &quot;Testing that actual value returned is the expected value returned.&quot;)
+    self.assertEqual(type(sample_actual_recommendations), type([]), &quot;Testing that the correct python type is returned.&quot;)
+
+
+
+myTests().main()
+&lt;/textarea&gt;
+&lt;/div&gt;
+</script>
+                            
+<div data-childcomponent="assess_ac_24_1_1_6" class="runestone explainer ac_section alert alert-warning">
+<p>Now, you’ll put it all together. Don’t forget to copy all of the functions that you have previously defined into this code window. Define a function <code class="docutils literal notranslate"><span class="pre">get_sorted_recommendations</span></code>. It takes a list of movie titles as an input. It returns a sorted list of related movie titles as output, up to five related movies for each input movie title. The movies should be sorted in descending order by their Rotten Tomatoes rating, as returned by the <code class="docutils literal notranslate"><span class="pre">get_movie_rating</span></code> function. Break ties in reverse alphabetic order, so that ‘Yahşi Batı’ comes before ‘Eyyvah Eyvah’.</p>
+
+<div class="ac_section alert alert-warning" id="assess_ac_24_1_1_6" lang="python"><div class="ac_actions col-md-12"><button class="btn btn-success run-button" type="button">Save &amp; Run</button><button class="btn btn-default" type="button">Load History</button><button class="ac_opt btn btn-default" style="margin-left: 10px;">Show CodeLens</button></div><div id="assess-ac-24-1-1-6"></div><div class="ac_code_div col-md-12"><div class="CodeMirror cm-s-default ui-resizable"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 34px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none; --darkreader-inline-outline: initial;" data-darkreader-inline-outline=""></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true" style="display: block; right: 0px; left: 30px;"><div style="height: 100%; min-height: 1px; width: 1077px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 30px; margin-bottom: -15px; border-right-width: 15px; min-height: 108px; min-width: 1077.45px; padding-right: 0px; padding-bottom: 15px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none; --darkreader-inline-outline: initial;" data-darkreader-inline-outline=""><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 20px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># some invocations that we use in the automated tests; uncomment these if you are getting errors and want better error messages</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment"># get_sorted_recommendations(["Bridesmaids", "Sherlock Holmes"])</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 15px; width: 1px; border-bottom: 15px solid transparent; top: 108px; --darkreader-inline-border-bottom:transparent;" data-darkreader-inline-border-bottom=""></div><div class="CodeMirror-gutters" style="height: 138px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div></div></div><div style="clear: both;"></div><div class="ac_output col-md-12"><pre id="assess_ac_24_1_1_6_stdout" style="visibility: hidden;"></pre><div id="assess_ac_24_1_1_6_graphics" class="ac-canvas"></div></div><div class="col-md-12" style="display: none;"></div><div class="col-md-12" style="display: none;"></div><div style="clear: both;"></div><p class="runestone_caption runestone_caption_text">ActiveCode (assess_ac_24_1_1_6)</p></div>
+</div>
+</div>
+
+                        
+                    
+                
+
+        </div>
+    
+</div>
+
+
+<div style="text-align:center">
+    <button class="btn btn-lg buttonAskCompletion" id="gradeMeButton">Score Me</button>
+</div>
+
+</div>
+<script>
+    //console.log(document.getElementsByClassName('nav nav-tabs'))
+    // This script renders the html into elements in the DOM
+    // The html gets thrown into a script tag so javascript can mess with it without throwing errors all over the place
+
+
+    var questionHtmlCode = document.getElementsByClassName("htmlblock");
+    // Interestingly, javascript won't understand the html string without first dumping it into an html element
+    // a console.log of the html string within the questioninfo array would only give an unexpected token error
+    // pulling the html strings from the script element provides the string that javascript recognizes
+    // even after stringifying the json.dumps version of a dictionary with the html as a value and then parsing the result, the html string was still seen as an undefined type according to javascript
+
+    // The htmlDecode is needed to unescape the html that the server has sent.
+    // because only unescaped html gets rendered as html elements
+
+    function htmlDecode(input){
+          let e = document.createElement('div');
+          e.innerHTML = input;
+          return e.childNodes.length === 0 ? "" : e.childNodes[0].nodeValue;
+    }
+
+
+
+
+    for (let i=0; i<questionHtmlCode.length; i++) {
+        let $div = $('#' + i);
+        let unescapedhtml = htmlDecode(questionHtmlCode[i].innerHTML);
+        let change = $.parseHTML(unescapedhtml, keepScripts=true);
+        $div.append(change);
+    }
+
+
+    $("#gradeMeButton").on("click", function(){
+        $('#gradeMeButton').css('visibility', 'hidden');
+        selfGrade(24, 'subham.kumar032@gmail.com')});
+
+
+
+
+</script>
+<script src="./Runestone Interactive_files/selfgrade.js" type="text/javascript"></script>
+
+
+
+        
+        <!-- end body content -->
+        
+        <!-- begin footer -->
+        <footer class="footer" style="margin-top:20px;">
+            <div class="container">
+                <p class="pull-right">
+                    
+                        <span class="loggedinuser">username: subham.kumar032@gmail.com</span> | <a href="https://fopp.umsi.education/assignments/doAssignment?assignment_id=24#">Back to top</a>
+                    
+                </p>
+                <p>
+                    © Copyright 2018 Runestone Interactive LLC
+                    
+                </p>
+            </div>
+        </footer>
+        <!-- end footer -->
+        
+
+        
+        <script type="text/javascript">
+            // do some styling of the web2py login and registration form
+            // this is done here because web2py doesn't have an easy way
+            // to add class to the auth form. We don't want to duplicate the
+            // styles from .form-control into our custom CSS.
+            var el = $("#web2py_user_form");
+            el.find("input[type='text']").addClass('form-control');
+            el.find("input[type='password']").addClass('form-control');
+        </script>
+        
+            <script type="text/javascript">
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-32029811-1']);
+                _gaq.push(['_trackPageview']);
+
+                (function() {
+                  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+            </script>
+        
+    
+
+<div id="ac_modal_fopp_scratch_ac" class="modal fade">  <div class="modal-dialog scratch-ac-modal">    <div class="modal-content">      <div class="modal-header">        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>        <h4 class="modal-title">Scratch ActiveCode</h4>      </div>       <div class="modal-body">      <div class="ac_section alert alert-warning" id="fopp_scratch_ac" lang="python"><div class="ac_actions col-md-12"><button class="btn btn-success run-button" type="button">Save &amp; Run</button><button class="btn btn-default" type="button">Load History</button><button class="ac_opt btn btn-default" style="margin-left: 10px;">Show CodeLens</button></div><div id="fopp-scratch-ac"></div><div class="ac_code_div col-md-12"><div class="CodeMirror cm-s-default ui-resizable"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none; --darkreader-inline-outline: initial;" data-darkreader-inline-outline=""></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; min-width: 3px;"><div style="position: relative;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none; --darkreader-inline-outline: initial;" data-darkreader-inline-outline=""><div class="CodeMirror-measure"><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>3</div></div></div><div class="CodeMirror-measure"><pre class="CodeMirror-line" role="presentation"><span role="presentation" style="padding-right: 0.1px;">      </span></pre></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"></div><div class="CodeMirror-code" role="presentation"></div></div></div></div></div><div style="position: absolute; height: 30px; width: 1px;"></div><div class="CodeMirror-gutters"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 1px;"></div></div></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div></div></div><div style="clear: both;"></div><div class="ac_output col-md-12"><pre id="fopp_scratch_ac_stdout" style="visibility: hidden;"></pre><div id="fopp_scratch_ac_graphics" class="ac-canvas"></div></div><div class="col-md-12" style="display: none;"></div><div class="col-md-12" style="display: none;"></div><div style="clear: both;"></div><p class="runestone_caption runestone_caption_text">ActiveCode (fopp_scratch_ac)</p></div>      </div>    </div>  </div></div></body></html>
