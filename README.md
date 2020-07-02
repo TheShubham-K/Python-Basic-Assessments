@@ -12,7 +12,7 @@
 
 
 
-
+## And if y'all like this repository please drop a star i need your's support.
 
 The best way to get touch with me is [on Instagram](https://www.instagram.com/subham.kumar032/).
 
